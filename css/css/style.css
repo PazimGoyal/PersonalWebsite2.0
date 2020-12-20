@@ -1,0 +1,204 @@
+body{
+    background: #000;
+}
+/*---------------------OUTSIDE-------------------*/
+#main_start{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    overflow: hidden;
+}/*---------------------First-------------------*/
+.web{
+    display: none;
+    overflow-x: hidden;
+    background: #000;
+}
+#name{
+    display: none;
+    position: absolute;
+    z-index: 98;
+    font-size: 70px;
+    color: #fff;
+    width:300px;
+    top:50%;
+    right:0;
+    margin-top: -100px;
+    /* left:0; */
+    margin-right:-90px;
+    opacity: .6;
+    text-shadow:1px 1px 1px #FFD700, 2px 2px 40px #fff;
+    transform: rotate(-90deg);
+}
+#top , #bottom{
+    position:relative ;
+    height:50vh;
+}
+
+.tb{
+    width: 100%;
+    height: 100%;
+}
+
+#main_website{
+    display: none;
+    height: 100vh;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.logo{
+    height:30vh;
+    display: block;
+    margin: auto;
+}
+
+.logo_main{
+    background: url("../img/back4.gif") center no-repeat;
+    background-size: contain;
+    margin: auto;
+}
+
+
+.word{
+    font-size: 40px;
+    font-family: "Brush Script MT", "Brush Script Std", cursive	;
+    cursor: pointer;
+    text-shadow: 1px 1px #a22914;
+}
+.word_height{
+    font-size: 50px;
+}
+.hello{
+    text-align: center;
+    margin-top: 100px;
+    height: 100px;
+    max-height: 100px;
+    overflow: hidden;
+}
+.word:hover{
+    font-size: 50px;
+    text-shadow: 1px 1px 10px #000, 2px 2px #a22914,3px 3px #000, 4px 4px #a22914;
+    transition: 1s ease;
+}
+
+.contacts{
+    position: absolute;
+    z-index: 97;
+    width:300px;
+    top:50%;
+    /* right:25%; */
+    left:0;
+    margin-left:-90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    max-height: 50px;
+}
+.contact{
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
+.contact:hover{
+text-decoration: none;
+color: #a22914;
+font-size: 50px;
+transition: 0.5s ease-out;
+}
+/*---------------------tecg-------------------*/
+#workexp{
+    background: #1c1c1c;
+    color: #fff;
+    opacity: 0;
+    display: none;
+    height: 100vh;
+    text-align: center;
+    padding: 25px;
+}
+/*---------------------workexp-------------------*/
+.technology{
+    display: none;
+    min-height: 100vh;
+    background:#1c1c1c;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.heading{
+    text-shadow:1px 1px 1px #1c1c1c,1px 1px 20px #000;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.grid{
+    max-width: 50vw;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    grid-gap: 10px;
+
+}
+
+.grid_item{
+    color: #a22914;
+    width: 200px;
+    background: #000;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.grid_item:hover{
+    color: #fff;
+    box-shadow: 2px 2px 20px #000;
+    transform: scale(1.1);
+    transition: 0.3s;
+   
+}
+/*---------------------Common-------------------*/
+
+.btn_def{
+    background: rgba(255, 255, 255, 0.3);
+    color: #a22914;
+    text-shadow: 1px 1px #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    }
+    .btn_def:hover{
+    
+        background: rgba(255, 255, 255, 1);
+    }
+    
+    .btn_def:active{
+        border: none;
+    }
+    
+
+
+
+
