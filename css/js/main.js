@@ -77,7 +77,11 @@ $(function () {
 
       $("#workexp").show().animate({
         opacity:'1'
-      },1000);
+      },1000,function(){
+        $(".grid2_item").animate({
+          left:"+=100",
+        });
+      });
     });
   })
 
