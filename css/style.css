@@ -131,8 +131,10 @@ transition: 0.5s ease-out;
     overflow-x: hidden;
 }
 
-.heading{
+.heading {
     text-shadow:1px 1px 1px #1c1c1c,1px 1px 20px #000;
+    font-family: "Brush Script MT", "Brush Script Std", cursive	;
+
 }
 
 .flex-center{
@@ -171,13 +173,10 @@ transition: 0.5s ease-out;
 }
 /*---------------------workexp-------------------*/
 #workexp{
-    /* background: #1c1c1c; */
     color: #fff;
-    /* opacity: 0; */
     display: none;
     min-height: 100vh;
     text-align: center;
-    /* padding: 25px; */
     z-index: 0;
 }
 .flex-center2{
@@ -186,7 +185,7 @@ transition: 0.5s ease-out;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     z-index: 1;
 }
@@ -204,10 +203,6 @@ transition: 0.5s ease-out;
     max-height: 12.5vw;
     overflow: hidden;
     object-fit: contain;
-    /* filter: grayscale(100%); */
-    /* border: 1px solid red; */
-    /* box-shadow: 1px 1px 10px #fff; */
-    /* padding: 20px; */
     border-radius: 50%;
     cursor: pointer;
     transition: 0.5s ease;
@@ -215,17 +210,13 @@ transition: 0.5s ease-out;
 }
 
 .grid2_item.img:hover{
-    filter: saturate(200%);
-    /* border: 1px solid red; */
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
-    /* padding: 20px; */
+    filter: contrast(110%);
     border-radius: 50%;
-    transform:rotateZ(360deg);
+    transform:scale(1.1);
 
 }
 
 .work_info{
-    /* display: flex; */
     align-items: center;
     z-index: -1;
     opacity: 0;
@@ -234,11 +225,6 @@ transition: 0.5s ease-out;
     position: absolute;
     top: 0;
     padding: -25px;
-    /* height:80%; */
-    /* padding: 100px; */
-    /* border: 1px solid #fff; */
-    /* border-radius: 5px; */
-    /* box-shadow: 1px 1px 10px #fff; */
     padding: 25px;
     width: 100%;
     height: 100%;
@@ -250,13 +236,13 @@ transition: 0.5s ease-out;
 .grid2_item.extra{
     text-align: center;
     border-radius: 0px;
-    /* font-family: 'Courier New', monospace; */
     font-family: Georgia, serif;
     font-size: 17px;
     color: #fff;
     overflow: visible;
     text-overflow: unset;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0,1);
+    font-weight: bold;
+    text-shadow: 1px 1px 5px #a22914;
     padding-top: 25px;
 
     
@@ -265,14 +251,14 @@ transition: 0.5s ease-out;
 
 .btn_def{
     background: rgba(255, 255, 255, 0.3);
-    color: #a22914;
-    text-shadow: 1px 1px #fff;
+    color: #fff;
+    text-shadow: 1px 1px 10px #a22914;
     border: none;
     border-radius: 5px;
     padding: 10px;
     }
     .btn_def:hover{    
-        background: rgba(255, 255, 255, 1);
+        box-shadow: inset 0px 0px 5px #000;
     }
     
     .btn_def:active{

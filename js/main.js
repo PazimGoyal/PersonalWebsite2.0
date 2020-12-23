@@ -101,14 +101,16 @@ $(function () {
       $('.grid2_item.e5').html('Position : <br>'+$(this).data('position'));
       $('.grid2_item.e6').html('Location : <br>'+$(this).data('location'));
       $('.grid2_item.e7').html('Refrences : <br>'+$(this).data('refrence'));
-
       $('.work_info').append(new_text);
       $(".hide").css('opacity',0);
       $('.grid2_item.extra').css('opacity',1);
-     $(this).css('opacity',1);
+      $('.heading').text(text_exp);
+      $(this).css('opacity',1);
+
     })    .mouseleave(function () {
      $(".work_info").css('opacity',0);      
      $(".hide").css('opacity',1);
+     $('.heading').text('Work Experience');
      $('.grid2_item.extra').css('opacity',0);
 
     });
