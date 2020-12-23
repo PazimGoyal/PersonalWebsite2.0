@@ -94,11 +94,13 @@ $(function () {
       for(let i=0;i<5000;i++){
         new_text += text_exp;
       }
-      $('.grid2_item.e1').html('Starting Date :<br>'+$(this).data('dates_start'));
-      $('.grid2_item.e2').html('Ending Date :<br>'+$(this).data('dates_end'));
-      $('.grid2_item.e5').html('Jobs Position :<br>' + $(this).data('position'));
-      $('.grid2_item.e6').html('Location :<br>' + $(this).data('location'));
-      $('.grid2_item.e7').html('References: <br>'+$(this).data('refrence'));
+      
+      $('.grid2_item.e1').html('Start Date : <br>'+$(this).data('dates_start'));
+      $('.grid2_item.e2').html('End Date : <br>'+$(this).data('dates_end'));
+      $('.grid2_item.e3').html('Technology : <br>'+$(this).data('technology'));
+      $('.grid2_item.e5').html('Position : <br>'+$(this).data('position'));
+      $('.grid2_item.e6').html('Location : <br>'+$(this).data('location'));
+      $('.grid2_item.e7').html('Refrences : <br>'+$(this).data('refrence'));
 
       $('.work_info').append(new_text);
       $(".hide").css('opacity',0);
