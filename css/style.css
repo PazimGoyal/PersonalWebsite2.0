@@ -48,6 +48,7 @@ body{
     background: #000;
     color: white;
     display: flex;
+    z-index: 0;
     justify-content: center;
     align-items: center;
 }
@@ -91,7 +92,7 @@ body{
 
 .contacts{
     position: absolute;
-    z-index: 97;
+    z-index: 95;
     width:300px;
     top:50%;
     /* right:25%; */
@@ -144,6 +145,7 @@ transition: 0.5s ease-out;
     align-items: center;
     height: 80vh;
     width: 100%;
+    z-index: 1;
 }
 
 .grid{
@@ -183,7 +185,7 @@ transition: 0.5s ease-out;
     display: flex;
     position: relative;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;
     width: 100%;
@@ -224,6 +226,7 @@ transition: 0.5s ease-out;
     font-family: "Brush Script MT", "Brush Script Std", cursive	;
     position: absolute;
     top: 0;
+    margin-top: -10px;
     padding: -25px;
     padding: 25px;
     width: 100%;
