@@ -320,6 +320,7 @@ body {
 /*---------------------Torch-------------------*/
 
 #torch_effect{
+  display: none;
     height: 100vh;
     position: relative;
     overflow: hidden;
@@ -327,11 +328,18 @@ body {
 }
 
 #torch_effect .background{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
     height: 100vh;
     /* filter: grayscale(100%); */
 }
 
+#torch_effect #switch{
+  position: relative;
+}
 .torch_off{
   color: white;
 }

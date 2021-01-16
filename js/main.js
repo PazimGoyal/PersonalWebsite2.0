@@ -166,4 +166,14 @@ $('#switch').click(function(){
     $(".torch_main").toggleClass('torch');
 })
 
+
+$("#projects_btn").on('click',function(){
+    $("#workexp").hide(1000,function(){
+        $("#torch_effect").show(1000);
+
+    });
+
+
+})
+
 });
