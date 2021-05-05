@@ -1,96 +1,156 @@
 var work_info = {
   GE: {
     name: "General Electric Renewable Energy",
-    position: "Stagiaire HV3D / Python Developer",
-    location: "Brossard, Quebec, Canada",
+    position: "<b>Position : </b>Stagiaire HV3D / Python Developer",
+    location: "<b>Location : </b>Brossard, Quebec, Canada",
     refrence: {
+      type: "<b>Refrences : </b>",
       name: "Antoine Gardeux",
-      position: " Analytics Software Engineer [GE Renewable, Belfort, France]",
+      position: "Analytics Software Engineer [GE Renewable, Belfort, France]",
       contact: "antoine.gardeux@ge.com",
     },
-    start: "01-June-2020",
-    end: "Present",
+    start: "<b>Start Date: </b>01-June-2020 - <b>End Date</b> Current",
     technology:
-      "Python , Django , Celery , Javascript , MongoDB, Channels, Docker",
-    description: "Full Stack Web Developer",
+      "<b>Technologies : </b>Python , Django , Celery , Javascript , MongoDB, Channels, Docker",
+    description: `<b>Description : </b>
+    <ul><li>
+    Worked on Python Django app to schedule jobs to import data
+    at scheduled intervals asynchronously using Celery, Celery
+    beat, Redis. Worked on websockets to load page in parts to
+    reduce client size load time.
+    </li><li>
+    Developed tools to be used by Clients and internal customers.
+    </li>
+    Worked on many parts of project working using python for
+    backend and TypeScript, Jquery, for frontend.</li></ul>`,
   },
   CDI: {
     name: "CDI College",
-    location: "Montreal, Quebec, Canada",
-    refrence:{'name':'Jean Guy',
-    position: "Co-ordinator",
-    contact: "antoine.gardeux@ge.com",
-},
-    start: "11-May-2019",
-    end: "Present",
+    location: "<b>Location: </b>Montreal, Quebec, Canada",
+    refrence: {
+      type: "<b>Refrences: </b>",
+      name: "Jean-Guy Turgeon",
+      position: "Enseignant en Design Graphique",
+      contact: "jean-guy.turgeon@collegecdi.ca",
+    },
+    start: "<b>Start Date: </b>11-May-2019 - <b>End Date</b> Current",
     technology:
-      " HTML, CSS, Adobe Illustrator, Photoshop, Javascript etc",
-    position: "Web Design Instructor",
-    description:"Teach Students basic web Desihning like"
+      "<b>Technologies : </b>HTML, CSS, Adobe Illustrator, Photoshop, Javascript etc",
+    position: "<b>Position : </b>Web Design Instructor",
+    description: `<b>Description : </b>    <ul><li>
+    Delivered theoretical and practical lectures on Web
+    technologies such as HTML, CSS, JavaScript, Database,
+    PHP and Adobe Software’s such as Adobe (Photoshop,
+    Adobe Illustrator and many more.</li><li>
+    Invigilating and Conducting exams.</li></ul>`,
   },
   TM: {
     name: "Tech Mahindra",
-    position: "Android Developer intern",
-    location: "Chandigarh, India",
+    position: "<b>Position: </b>Android Developer intern",
+    location: "<b>Location: </b>Chandigarh, India",
     refrence: {
-      name: "Rizma Aggarwal",
-      position: " Analytics Software Engineer GE Renewable, Belfort, France",
-      location: " Email: antoine.gardeux@ge.com",
+      type: "<b>Refrences: </b>",
+      name: "Er. Rizma Aggarwal",
+      position: "(now) Manager Backend Developer at Morgan Stanley",
+      contact: "karisagoyal@gamil.com / rizma.aggarwal@morganstanley.com",
     },
-    start: "01-June-2020",
-    end: "Present",
+    start: "2015",
     technology:
-      "Java, XML, Android App Development, Android Studio",
-    description: "...... ..e.3e 3ry43ruy4br ",
+      "<b>Technologies : </b>Java, XML, Android App Development, Android Studio",
+    description: `<b>Description : </b>    <ul><li>
+      Android 5.0 development Training.
+    </li><li>Developed android app and learned about core android
+    concepts</li></ul>`,
   },
   CUj: {
     name: "Concordia University (Teaching Assistent)",
-    position: "Teaching Assistent",
-    location: "Montreal, Quebec, Canada",
+    position: "<b>Position: </b>Teaching Assistent",
+    location: "<b>location: </b>Montreal, Quebec, Canada",
     refrence: {
-      name: "Antoine Gakrdeux",
-      position: " Analytics Software Engineer GE Renewable, Belfort, France",
-      location: " Email: antoine.gardeux@ge.com",
+      type: "<b>Refrences: </b>",
+      name: "Dr. Aiman Hanna",
+      position: "Senior Lecturer, Computer Science and Software Engineering",
+      contact: "Aiman.hanna@concordia.ca",
     },
-    start: "01-June-2020",
-    end: "Present",
+    start: "<b>Year: </b>2019",
     technology:
-      "Python , Django , Celery , Javascript , MongoDB, Channels, Docker",
-    description: "...... ..e.3e 3ry43ruy4br ",
+      "<b>Technologies : </b>Python , Java, Websockets, Curl, Datastructures",
+    description: `<b>Description : </b>    <ul>
+    <li>
+      Teaching Assistent for Computer Networks Graduate Class
+      <ul>
+      <li>Responsibilities : </li>
+      <li>Practical Laboratory</li>
+      <li>Project Demo</li>
+      <li>Exam marking</li>
+      </ul>
+    </li>
+    <li>
+      Teaching Assistent for Data Structures Under-Graduate Class
+      <ul>
+      <li>Responsibilities : </li>
+      <li>Project Demo</li>
+      <li>Exam marking</li>
+      </ul>
+    </li>
+    </ul>
+      `,
   },
   CUs: {
     name: "Concordia Universitiy (Studies)",
-    position: "Stagiaire HV3D / Python Developer",
-    location: "Brossard, Quebec, Canada",
+    position: "Masters of Applied Computer Science",
+    location: "Montreal, Quebec, Canada",
     refrence: {
-      name: "Antoine Gardeux",
-      position: " Analytics Software Engineer GE Renewable, Belfort, France",
-      location: " Email: antoine.gardeux@ge.com",
+      name: "-",
+      position: "-",
+      contact: "-",
     },
-    start: "01-June-2020",
-    end: "Present",
+    start: "<b>Start Date: </b>01-January-2018 - <b>End Date</b> 31-December-2019",
     technology:
-      "Python , Django , Celery , Javascript , MongoDB, Channels, Docker",
-    description: "...... ..e.3e 3ry43ruy4br ",
+      "<b>Main Subjects: </b>Algorithm Design",
+    description: "-",
   },
   DAV: {
-    name: "DAVr University",
-    position: "Stagiaire HV3D / Python Developer",
+    name: "DAV University",
+    position: "",
     location: "Brossard, Quebec, Canada",
     refrence: {
       name: "Antoine Gardeux",
       position: " Analytics Software Engineer GE Renewable, Belfort, France",
-      location: " Email: antoine.gardeux@ge.com",
+      contact: " Email: antoine.gardeux@ge.com",
     },
     start: "01-June-2020",
     end: "Present",
     technology:
-      "Python , Django , Celery , Javascript , MongoDB, Channels, Docker",
+      "<b>Main Subjects: </b>Python , Django , Celery , Javascript , MongoDB, Channels, Docker",
     description: "...... ..e.3e 3ry43ruy4br ",
   },
 };
 
+function main_page(current_class) {
+  $(current_class).slideUp(() => {
+    $("#main_website").slideDown(() => {
+      $(".logo_main").show(200, function () {
+        $(".hello").slideDown(200, function () {
+          $(".contacts").animate(
+            {
+              left: "-=1000",
+              opacity: "1",
+            },
+            200
+          );
+        });
+      });
+    });
+  });
+}
+function reset_technologies() {
+  $(".grid_item").css("opacity", 1);
+  $(".technology").css("opacity", 1);
+}
+
 $(function () {
+  //First Page MAin Button
   $("#main_start").on("click", function () {
     $(".web").show();
     $("#top").animate(
@@ -143,23 +203,10 @@ $(function () {
       });
     });
   });
+  
 
   $("#prev_main").on("click", () => {
-    $(".technology").slideUp(() => {
-      $("#main_website").slideDown(() => {
-        $(".logo_main").show(200, function () {
-          $(".hello").slideDown(200, function () {
-            $(".contacts").animate(
-              {
-                left: "-=1000",
-                opacity: "1",
-              },
-              200
-            );
-          });
-        });
-      });
-    });
+    main_page(".technology");
   });
 
   $("#work_exp").on("click", () => {
@@ -226,22 +273,22 @@ $(function () {
       let text_exp = " " + comp["name"];
       let new_text = "";
       $(".work_info").html(text_exp).css("opacity", 0.24);
-      for (let i = 0; i < 5000; i++) {
-        new_text += text_exp;
-      }
       $(".description .dd1").html("<b>" + text_exp + "</b>");
-      $(".description .dd2").html("<b></b>Position : </b>" + comp["position"]);
-      $(".description .dd3").html(
-        "<b>Start Date : </b>" +
-          comp["start"] +
-          " - <b>End Date : </b>" +
-          comp["end"]
+      $(".description .dd2").html(comp["position"]);
+      $(".description .dd4").html(comp["start"]);
+      $(".description .dd3").html(comp["location"]);
+      $(".description .dd5").html(comp["technology"]);
+
+      $(".description .dd6").html(
+        comp["refrence"]["type"] +
+          `<ul>
+        <li> ${comp["refrence"]["name"]}</li>
+        <li> ${comp["refrence"]["position"]}</li>
+        <li> ${comp["refrence"]["contact"]}</li>
+        </ul>`
       );
-      $(".description .dd4").html(
-        "<b>Refrences : </b>" + comp["refrence"]["name"]
-      );
-      $(".description .dd5").html("<b>Location : </b>" + comp["location"]);
-      $(".description .dd6").html("<b>Technology : </b>" + comp["technology"]);
+      $(".description .dd7").html(comp["description"]);
+
       if ($(this).data("side") == "left") {
         console.log("YES");
         $(".description")
@@ -252,7 +299,11 @@ $(function () {
         console.log("No");
         $(".description").css("left", "-45vw").show(0).animate({ left: "0px" });
       }
-      $(".work_info").append(new_text);
+      for (let i = 0; i < 5000; i++) {
+        new_text += text_exp;
+      }
+
+      $(".work_info").text(new_text);
       $(".hide").css("opacity", 0);
       $(".grid2_item.extra").css("opacity", 1);
       // $(".heading").text(text_exp);
@@ -280,9 +331,76 @@ $(function () {
     $(".torch_main").toggleClass("torch");
   });
 
+  /*-----------Buttons--------------------*/
+
   $("#projects_btn").on("click", function () {
     $("#workexp").hide(1000, function () {
-      $("#torch_effect").show(1000);
+      $("#contact_us").show(1000);
     });
   });
+});
+
+$("#work_exp_prev_main").on("click", function () {
+  main_page("#workexp");
+  reset_technologies();
+});
+
+$("#work_exp_prev").on("click", () => {
+  $("#workexp").animate(
+    {
+      opacity: "0",
+    },
+    400,
+    function () {
+      $(this).hide();
+      $(".technology")
+        .show()
+        .animate(
+          {
+            opacity: "1",
+          },
+          300,
+          function () {
+            $(".grid_item.g5").animate(
+              {
+                opacity: "1",
+              },
+              100,
+              function () {
+                $(".grid_item.g4").animate(
+                  {
+                    opacity: "1",
+                  },
+                  100,
+                  function () {
+                    $(".grid_item.g3").animate(
+                      {
+                        opacity: "1",
+                      },
+                      100,
+                      function () {
+                        $(".grid_item.g2").animate(
+                          {
+                            opacity: "1",
+                          },
+                          100,
+                          function () {
+                            $(".grid_item.g1").animate(
+                              {
+                                opacity: "1",
+                              },
+                              100
+                            );
+                          }
+                        );
+                      }
+                    );
+                  }
+                );
+              }
+            );
+          }
+        );
+    }
+  );
 });
