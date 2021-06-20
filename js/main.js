@@ -105,9 +105,9 @@ var work_info = {
       position: "-",
       contact: "-",
     },
-    start: "<b>Start Date: </b>01-January-2018 - <b>End Date</b> 31-December-2019",
-    technology:
-      "<b>Main Subjects: </b>Algorithm Design",
+    start:
+      "<b>Start Date: </b>01-January-2018 - <b>End Date</b> 31-December-2019",
+    technology: "<b>Main Subjects: </b>Algorithm Design",
     description: "-",
   },
   DAV: {
@@ -179,10 +179,10 @@ $(function () {
 
   $(".contact")
     .mouseenter(function () {
-      $("#name").text($(this).data("name")).show(500);
+      $("#name").text($(this).data("name")).show(200);
     })
     .mouseleave(function () {
-      $("#name").hide(100);
+      $("#name").hide(0);
     });
 
   $("#main").on("click", () => {
@@ -203,7 +203,6 @@ $(function () {
       });
     });
   });
-  
 
   $("#prev_main").on("click", () => {
     main_page(".technology");
